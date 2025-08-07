@@ -27,7 +27,7 @@ class _SingleScreenState extends State<SingleScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: const Color.fromARGB(255, 34, 208, 60),
+        backgroundColor: const Color.fromARGB(255, 34, 127, 208),
         appBar: AppBar(
           title: Text(
             widget.titleAppBar,
@@ -44,7 +44,7 @@ class _SingleScreenState extends State<SingleScreen> {
               SizedBox(height: 20),
               CircleWidget(),
               SizedBox(height: 20),
-              Text(' End of the Line')
+              Text('End Of Widget Tree')
             ],
           ),
         ));
