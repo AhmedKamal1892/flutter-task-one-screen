@@ -27,7 +27,7 @@ class _SingleScreenState extends State<SingleScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: const Color.fromARGB(255, 248, 246, 237),
+        backgroundColor: const Color.fromARGB(255, 34, 208, 60),
         appBar: AppBar(
           title: Text(
             widget.titleAppBar,
