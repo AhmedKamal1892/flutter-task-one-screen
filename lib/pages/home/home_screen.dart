@@ -11,7 +11,7 @@ class TaskApp extends StatelessWidget {
       title: 'Task App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(appBarTheme: AppBarTheme(backgroundColor: Colors.amber)),
-      home: SingleScreen(titleAppBar: 'Widget Tree'),
+      home: SingleScreen(titleAppBar: 'Widget Tree '),
     );
   }
 }

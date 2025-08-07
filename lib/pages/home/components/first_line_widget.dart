@@ -11,7 +11,7 @@ class FirstLineWidget extends StatelessWidget {
           width: 40,
           height: 40,
           margin: EdgeInsets.only(right: 14),
-          color: Colors.amberAccent,
+          color: Colors.lightGreen,
         ),
         Expanded(
           child: Container(
@@ -23,7 +23,7 @@ class FirstLineWidget extends StatelessWidget {
           width: 40,
           height: 40,
           margin: EdgeInsets.only(left: 14),
-          color: Colors.brown,
+          color: Colors.red,
         )
       ],
     );
